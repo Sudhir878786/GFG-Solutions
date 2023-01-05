@@ -37,7 +37,7 @@ public:
             bool f=1;
             for(int j=0;j<s;j++){
                 temp+=words[i][j];
-                if(mp[temp]==0){
+                if(mp.count(temp)<=0){
                     f=0;
                     break;
                 }
